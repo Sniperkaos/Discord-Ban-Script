@@ -3,7 +3,7 @@
 "main": "index.js",
 "version": "1.0.0",
 "url" : "https://github.com/Sniperkaos/Discord-Ban-Script",
-"license": "ISC"
+"license": "ISC",
 "dependencies": {
   "discord.js":"^11.4.2"
   }
