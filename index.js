@@ -5,9 +5,9 @@ Discord Bot Ban Script
 Made by @我吃了你的狗#3900 
 
 */
-const discord = require('discord.js')
+const discord = require("discord.js")
 const bot = new Discord.Client();
-const config = require('./config.json")
+const config = require("./config.json")
 //feel free to add more roles to this array
 const roles = ["role1", "role2", "role3"]
 bot.on("message", async message => {
