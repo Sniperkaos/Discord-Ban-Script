@@ -43,7 +43,10 @@ if(command === "ban")
         {
                 message.reply(`${message.author.tag}, you do not have permission to use this command.`)
         }
-}
+    }
+});
+
+bot.login(config.token)
 
 /*
 
