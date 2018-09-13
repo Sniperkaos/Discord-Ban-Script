@@ -30,7 +30,7 @@ if(command === "ban")
     let reason = args.slice(1).join(' ');
     //if no reason, change reason to "no reason u big gay"
     if(!reason) reason = "no reason u big gay"
-        if(message.member.roles.find("name", roles.forEach)) //if it doesn't work, change roles.forEach to one of your normal roles
+        if(message.member.roles.find("name")
         {
                 await victim.ban(reason)
                   .catch(error => message.reply(`sorry but ya boi cant ban cause ${error} is slapping me rn`));
